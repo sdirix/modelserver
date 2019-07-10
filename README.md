@@ -1,10 +1,15 @@
 # modelserver [![Build Status](https://travis-ci.org/eclipsesource/modelserver.svg?branch=master)](https://travis-ci.org/eclipsesource/modelserver)
+
+## Requirements
+
+ * Java 9 or higher (including `JAVA_HOME` pointing to it for the maven build)
+
 ## Build the modelserver
-To build and test the components execute the following maven goal in the root directory:
+To build and test the components as a standalone JAR execute the following maven goal in the root directory:
 ```bash
-mvn clean install
+mvn clean verify
 ```
-To build the modelserver as standalone JAR execute the following maven goal in the root directory:
+To install the modelserver in your local maven repository execute the following maven goal in the root directory:
 ```bash
 mvn clean install
 ```
